@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search_white"
+        android:title="@string/buscar"
+        android:contentDescription="Buscar"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/carrito"
+        android:icon="@drawable/carrito_white"
+        android:title="@string/carrito"
+        android:contentDescription="Carrito de compras"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/agregarProducto"
+        android:icon="@drawable/upload_white"
+        android:title="@string/agregar_producto"
+        android:contentDescription="Vender nuevo producto"
+        app:showAsAction="ifRoom"/>
+</menu>
